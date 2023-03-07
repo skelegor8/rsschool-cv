@@ -48,15 +48,15 @@ function recycle(array) {
 
 This is part of the assignments I did on The Rolling Scopes courses:
 
-- https://skelegor8.github.io/rsschool-tasks/rsschool-tasks-deploy/portfolio/
-- https://skelegor8.github.io/rsschool-tasks/rsschool-tasks-deploy/shelter/pages/main/
-- https://skelegor8.github.io/rsschool-tasks/rsschool-tasks-deploy/image-galery/
-- https://skelegor8.github.io/rsschool-tasks/rsschool-tasks-deploy/tic-tac-toe/
-- https://skelegor8.github.io/rsschool-tasks/rsschool-tasks-deploy/cssMemSlider/
+- [Portfolio](https://skelegor8.github.io/rsschool-tasks/rsschool-tasks-deploy/portfolio/)
+- [Shelter](https://skelegor8.github.io/rsschool-tasks/rsschool-tasks-deploy/shelter/pages/main/)
+- [Image galery](https://skelegor8.github.io/rsschool-tasks/rsschool-tasks-deploy/image-galery/)
+- [Tic tac toe](https://skelegor8.github.io/rsschool-tasks/rsschool-tasks-deploy/tic-tac-toe/)
+- [CssMemSlider](https://skelegor8.github.io/rsschool-tasks/rsschool-tasks-deploy/cssMemSlider/)
 
 Trying to create a "MineSweeper" game in JS:
 
-- https://skelegor8.github.io/minesweeper/
+- [Minesweeper](https://skelegor8.github.io/minesweeper/)
 
 * * *
 
