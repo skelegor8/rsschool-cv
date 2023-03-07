@@ -6,15 +6,36 @@
 
 ### Contact information:
 
-- Phone: +48 571 426 960
+- **Phone**: +48 571 426 960
+- **Email**: skelegor8@gmail.com
+- [**Telegram**:](https://t.me/shkelEgor) @shkelEgor
+- [**GitHub**](https://github.com/skelegor8): skelegor8
+- **[Linkedin](https://www.linkedin.com/in/egor-shkel-125607163/)**
 
 * * *
 
 ### About Myself:
 
+I am 25 years old, I work as a freelancer. I really need classes in which I can develop throughout my life. That's why I'm here. My goal is to gain knowledge in front—end development.
+
+**My strengths:**
+
+- Diligence
+- A capable student
+- Full immersion in the essence of the problems
+- Teamwork
+
 * * *
 
-### Skills and Proficiency:
+### Skills:
+
+- HTML
+- CSS (Preprocessor SCSS, BEM methodology).
+- JavaScript, JSON.
+- Version control: Git (remote service GitHub).
+- Windows OS, Linux (Fedora)
+- Figma(for web development), Photoshop
+- **Editors**: Sublime, Brackets, VSCode.
 
 * * *
 
@@ -62,6 +83,19 @@ Trying to create a "MineSweeper" game in JS:
 
 ### Courses:
 
+- JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
+- CSS, HTML, and JavaScript manual on [developer.mozilla.org](https://developer.mozilla.org/) (in progress)
+- RS Schools Course «JavaScript/Front-end. Stage 0»
+
+### Education:
+
+- Belarusian State University of Informatics and Radioelectronics 2017 - 2021
+
 * * *
 
 ### Languages:
+
+- English - Basic
+- Russian - Native
+- Belarusian - Intermediate
+- Polish - Basic
