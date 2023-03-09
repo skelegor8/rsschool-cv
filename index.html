@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>CV - Egor Shkel</title>
+</head>
+<body>
+  <div class="main__container">
+    <h1>Egor Shkel</h1>
+    <h2>Junior Frontend Developer</h2>
+    <div class="main__content">
+      <h3>Contact information:</h3>
+      <ul>
+        <li>Phone: +48 571 426 960</li>
+        <li>Email: skelegor8@gmail.com</li>
+        <li><a href="https://t.me/shkelEgor">Telegram:</a> @shkelEgor</li>
+        <li><a href="https://github.com/skelegor8"> GitHub:</a> skelegor8</li>
+        <li><a href="https://www.linkedin.com/in/egor-shkel-125607163/">Linkedin</a></li>
+      </ul>
+    </div>
+    <div class="main__content">
+      <h3>About Myself:</h3>
+      <p>I am 25 years old, I work as a freelancer. I really need classes in which I can develop throughout my life. That's why I'm here. My goal is to gain knowledge in front—end development.</p>
+      <span>My strengths:</span>
+      <ul>
+        <li>Diligence</li>
+        <li>A capable student</li>
+        <li>Full immersion in the essence of the problems</li>
+        <li>Teamwork</li>
+      </ul>
+    </div>
+    <div class="main__content">
+      <h3>Skills</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS (Preprocessor SCSS, BEM methodology).</li>
+        <li>JavaScript, JSON.</li>
+        <li>Version control: Git (remote service GitHub).</li>
+        <li>Windows OS, Linux (Fedora)</li>
+        <li>Figma(for web development), Photoshop</li>
+        <li>Editors: Sublime, Brackets, VSCode.</li>
+      </ul>
+    </div>
+    <div class="main__content">
+      <h3>Code example:</h3>
+      <p>Let's Recycle! KATA from CODEWARS: You will be given a list of objects. Each object has type, material, and possibly secondMaterial. The existing materials are: paper, glass, organic, and plastic. Your job is to sort these objects across the 4 recycling bins according to their material (and secondMaterial if it's present), by listing the type's of objects that should go into those bins.</p>
+      <pre>
+        <code>
+    function recycle(array) {
+      let paper = [];
+      let glass = [];
+      let organic = [];
+      let plastic = [];
+      let recyclingBins = ["paper", "glass", "organic", "plastic"];
+      let resultRecycle = [paper, glass, organic, plastic];
+
+      for (let i = 0; i &lt; recyclingBins.length; i++) {
+        for (let j = 0; j &lt; array.length; j++) {
+          if (array[j].material == recyclingBins[i] | array[j].secondMaterial == recyclingBins[i]) {
+            resultRecycle[i].push(array[j].type);
+            }
+          }
+        }
+        return resultRecycle;
+      }
+        </code>
+      </pre>
+    </div>
+    <div class="main__content">
+      <h3>My Projects:</h3>
+      <p>This is part of the assignments I did on The Rolling Scopes courses:</p>
+      <ul>
+        <li><a href="https://skelegor8.github.io/rsschool-tasks/rsschool-tasks-deploy/portfolio/">Portfolio</a></li>
+        <li><a href="https://skelegor8.github.io/rsschool-tasks/rsschool-tasks-deploy/shelter/pages/main/">Shelter</a></li>
+        <li><a href="https://skelegor8.github.io/rsschool-tasks/rsschool-tasks-deploy/image-galery/">Image galery</a></li>
+        <li><a href="https://skelegor8.github.io/rsschool-tasks/rsschool-tasks-deploy/tic-tac-toe/">Tic tac toe</a></li>
+        <li><a href="https://skelegor8.github.io/rsschool-tasks/rsschool-tasks-deploy/cssMemSlider/">CssMemSlider</a></li>
+      </ul>
+      <p>Trying to create a "MineSweeper" game in JS:</p>
+      <ul>
+        <li><a href="https://skelegor8.github.io/minesweeper/">Minesweeper</a></li>
+      </ul>
+    </div>
+    <div class="main__content">
+      <h3>Courses</h3>
+      <ul>
+        <li>JavaScript Manual on <a href="https://learn.javascript.ru/">learnjavascript.ru</a> (in progress);</li>
+        <li>CSS, HTML, and JavaScript manual on <a href="https://developer.mozilla.org/">developer.mozilla.org</a> (in progress);</li>
+        <li>RS Schools Course «JavaScript/Front-end. Stage 0».</li>
+      </ul>
+      <h3>Education:</h3>
+      <ul>
+        <li>Belarusian State University of Informatics and Radioelectronics 2017 - 2021</li>
+      </ul>
+    </div>
+    <div class="main__content">
+      <h3>Languages</h3>
+      <ul>
+        <li>English - Basic</li>
+        <li>Russian - Native</li>
+        <li>Belarusian - Intermediate</li>
+        <li>Polish - Basic</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
