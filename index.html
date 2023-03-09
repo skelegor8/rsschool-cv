@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
-  <title>CV</title>
+  <title>CV - Egor Shkel</title>
 </head>
 <body>
   <div class="main__container">
@@ -52,23 +52,23 @@
       <p>Let's Recycle! KATA from CODEWARS: You will be given a list of objects. Each object has type, material, and possibly secondMaterial. The existing materials are: paper, glass, organic, and plastic. Your job is to sort these objects across the 4 recycling bins according to their material (and secondMaterial if it's present), by listing the type's of objects that should go into those bins.</p>
       <pre>
         <code>
-        function recycle(array) {
-          let paper = [];
-          let glass = [];
-          let organic = [];
-          let plastic = [];
-          let recyclingBins = ["paper", "glass", "organic", "plastic"];
-          let resultRecycle = [paper, glass, organic, plastic];
-        
-          for (let i = 0; i &lt; recyclingBins.length; i++) {
-            for (let j = 0; j &lt; array.length; j++) {
-              if (array[j].material == recyclingBins[i] | array[j].secondMaterial == recyclingBins[i]) {
-                resultRecycle[i].push(array[j].type);
-              }
+    function recycle(array) {
+      let paper = [];
+      let glass = [];
+      let organic = [];
+      let plastic = [];
+      let recyclingBins = ["paper", "glass", "organic", "plastic"];
+      let resultRecycle = [paper, glass, organic, plastic];
+      
+      for (let i = 0; i &lt; recyclingBins.length; i++) {
+        for (let j = 0; j &lt; array.length; j++) {
+          if (array[j].material == recyclingBins[i] | array[j].secondMaterial == recyclingBins[i]) {
+            resultRecycle[i].push(array[j].type);
             }
           }
-          return resultRecycle;
         }
+        return resultRecycle;
+      }
         </code>
       </pre>
     </div>
@@ -76,7 +76,7 @@
       <h3>My Projects:</h3>
       <p>This is part of the assignments I did on The Rolling Scopes courses:</p>
       <ul>
-        <li><a href="https://skelegor8.github.io/rsschool-tasks/rsschool-tasks-deploy/portfolio/"></a>Portfolio</li>
+        <li><a href="https://skelegor8.github.io/rsschool-tasks/rsschool-tasks-deploy/portfolio/">Portfolio</a></li>
         <li><a href="https://skelegor8.github.io/rsschool-tasks/rsschool-tasks-deploy/shelter/pages/main/">Shelter</a></li>
         <li><a href="https://skelegor8.github.io/rsschool-tasks/rsschool-tasks-deploy/image-galery/">Image galery</a></li>
         <li><a href="https://skelegor8.github.io/rsschool-tasks/rsschool-tasks-deploy/tic-tac-toe/">Tic tac toe</a></li>
